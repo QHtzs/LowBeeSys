@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers version="1" Description="no CN allowed">
+    <server>
+	<Execute>python</Execute>
+        <ProjectName>etl_1</ProjectName>
+        <FilePath>aa.py</FilePath>
+	<Description>sleep 100 seconds</Description>
+	<Schedule>*</Schedule>
+    </server>
+    <server>
+	<Execute>python</Execute>
+        <ProjectName>etl_2</ProjectName>
+        <FilePath>aa.py</FilePath>
+	<Description>sleep 100 seconds</Description>
+	<Schedule>*</Schedule>
+    </server>
+    <server>
+	<Execute>python</Execute>
+        <ProjectName>etl_3</ProjectName>
+        <FilePath>bb.py</FilePath>
+	<Description> finished in a short time</Description>
+	<Schedule>*</Schedule>
+    </server>
+    <server>
+	<Execute>python</Execute>
+        <ProjectName>etl_4</ProjectName>
+        <FilePath>cc.py</FilePath>
+	<Description>throw exceptions</Description>
+	<Schedule>*</Schedule>
+    </server>
+    <server>
+	<Execute></Execute>
+        <ProjectName>etl_5</ProjectName>
+        <FilePath>aa</FilePath>
+	<Description>no execute</Description>
+	<Schedule>*</Schedule>
+    </server>
+    <server>
+	<Execute>sh</Execute>
+        <ProjectName>etl_6</ProjectName>
+        <FilePath>aa.sh</FilePath>
+	<Description>no support</Description>
+	<Schedule>*</Schedule>
+    </server>
+</servers>
